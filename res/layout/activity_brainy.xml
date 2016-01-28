@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.zing.boundservicesample.BrainyActivity" >
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="STOP" />
+
+    <Button
+        android:id="@+id/startIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Intent Service" />
+
+    <Button
+        android:id="@+id/stopIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Intent Service" />
+
+    <Button
+        android:id="@+id/bindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bind Service" />
+
+    <Button
+        android:id="@+id/unbindService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind Service" />
+    
+    <Button
+        android:id="@+id/messageService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message Service" />
+
+</LinearLayout>
